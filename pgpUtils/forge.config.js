@@ -34,4 +34,19 @@ module.exports = {
       config: {},
     },
   ],
+  publishers: [
+    {
+      name: '@electron-forge/maker-pkg
+    }
+  //  {
+  //    name: '@electron-forge/publisher-github',
+  //    config: {
+  //      repository: {
+  //        owner: 'jonasalmeida',
+  //       name: 'pgputils'
+  //      },
+  //      prerelease: true
+  //    }
+  //  }
+  ]
 };
