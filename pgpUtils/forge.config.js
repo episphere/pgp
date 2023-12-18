@@ -8,6 +8,13 @@ module.exports = {
       name: '@electron-forge/maker-squirrel',
       config: {},
     },
+    
+    // temp
+    {
+      name: '@electron-forge/maker-zip'
+    },
+    // temp
+
     {
       name: '@electron-forge/maker-zip',
       platforms: ['darwin'],
