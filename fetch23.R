@@ -19,5 +19,5 @@ fetch23=function(n){
   # assemble URL
   # url3 <- paste(baseURL,genFname)
   fileURL = str_replace(paste(baseURL,genFname),' ','/')
-  system(sprintf("wget %s -O %s", fileURL,str_replace(paste('./23andme/pgp_',n),' ','')))
+  system(sprintf("wget %s -O %s", fileURL,str_replace_all(paste('./23andme/pgp_',n,'.zip'),' ','')))
 }
